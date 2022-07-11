@@ -1,5 +1,25 @@
 {
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdarville9/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jdarville9/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Jdarville9/Employee-Tracker#readme",
   "dependencies": {
-    "inquirer": "^9.0.0"
+    "inquirer": "^7.0.3",
+    "mysql2": "^2.3.3"
   }
 }
