@@ -13,7 +13,7 @@ const initializeApp = () => {
       {
         type: "list",
         name: "chooseAction",
-        message: "What would you like to do?",
+        message: "What would you like to Do?",
         choices: [
           "View all departments",
           "View all roles",
