@@ -53,7 +53,6 @@ const initializeApp = () => {
 };
 
 function viewAllDept() {
-  console.log("Viewed all Depts");
   const sql = `SELECT * FROM department`;
   db.query(sql, (err, rows) => {
     if (err) {
@@ -113,7 +112,6 @@ const viewAllRoles = () => {
 };
 
 const viewAllEmp = () => {
-  console.log("Viewed all Emps");
   const sql = `SELECT employee.first_name, employee.last_name, role.salary 
   AS salary, role.title
   AS job_title, department.department_name
@@ -170,7 +168,6 @@ const addDept = () => {
 };
 
 const addRole = () => {
-  console.log("Added Role!");
   inquirer
     .prompt([
       {
@@ -203,7 +200,6 @@ const addRole = () => {
 };
 
 const addEmp = () => {
-  console.log("Added Emp!");
   inquirer
     .prompt([
       {
@@ -302,13 +298,7 @@ function updateEmp() {
             }
             viewAllEmp();
           });
-          console.log(empID);
-          console.log(roleID);
-          // const params = answers.chooseEmp;
-          // db.query(sqlEmp, )
         });
     });
   });
 }
-
-// git push once completed
