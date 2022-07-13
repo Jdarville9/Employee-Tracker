@@ -6,7 +6,7 @@ This application allows you to view and manage the departments, roles, and emplo
 
 ## Usage
 
-To use this application you must have all contributing resources downloaded/initiated (if applicable). Open the root file in VS code. Run 'npm init' in command line. Then, type 'npm start.' All of the action options will populate in the command line.
+To use this application you must have all contributing resources downloaded/initiated (if applicable). Open the root file in VS code. Then, type 'npm start.' All of the action options will populate in the command line.
 
 ## Contributions
 
